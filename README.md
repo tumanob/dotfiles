@@ -1,15 +1,15 @@
-# vim CheatSheet and materials
+# Dotfiles
+My dotfiles configurations 
 
-contains links and files that I use for my day to day work. 
+### Requarements 
+zsh 
+oh-my-zsh
+powerlevel10k => zsh theme (might need fornt install for icons)
+tmux
 
-Vim Cheat Sheet, thoughts and commands
-[Vim Cheat Sheet](docs/vimCheatSheet.md)
+setting dotfiles should be under ~/ root folder and with dot before it or you
+can make an aliase for it to make it such as ~/.zshrc
 
-DotFiles - settings for various apps and tools with the ability to add own local config that overrides defaults
-[Dots files and settings](dotfiles-local)
+to add add or chage it can make symlink for it
+ln -s {PATHTOFOLDER}/dotfiles-local/{FILENAME} ~/.{FILENAME}
 
-# Links to other docs
-Nice easy to grasp cheatSheet https://vimsheet.com/
-https://vim.rtorr.com/
-
-https://devhints.io/vim
